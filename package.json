@@ -9,6 +9,7 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
+    "server": "serve -s build -l 80",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
