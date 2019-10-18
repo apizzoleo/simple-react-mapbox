@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg29"
+   version="1.1"
+   viewBox="0 0 15 15"
+   height="15"
+   width="15">
+  <metadata
+     id="metadata33">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>6D90BB58-43E7-4F9F-A705-79680C8A8558</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+  <title
+     id="title2">6D90BB58-43E7-4F9F-A705-79680C8A8558</title>
+  <desc
+     id="desc4">Created with sketchtool.</desc>
+  <defs
+     id="defs16">
+    <circle
+       r="7.5"
+       cy="7.5"
+       cx="7.5"
+       id="path-1" />
+    <filter
+       id="filter-2"
+       filterUnits="objectBoundingBox"
+       height="1.8"
+       width="1.8"
+       y="-0.40000001"
+       x="-0.40000001">
+      <feMorphology
+         id="feMorphology7"
+         result="shadowSpreadOuter1"
+         in="SourceAlpha"
+         operator="dilate"
+         radius="0.5" />
+      <feOffset
+         id="feOffset9"
+         result="shadowOffsetOuter1"
+         in="shadowSpreadOuter1"
+         dy="0"
+         dx="0" />
+      <feGaussianBlur
+         id="feGaussianBlur11"
+         result="shadowBlurOuter1"
+         in="shadowOffsetOuter1"
+         stdDeviation="1.5" />
+      <feColorMatrix
+         id="feColorMatrix13"
+         in="shadowBlurOuter1"
+         type="matrix"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" />
+    </filter>
+  </defs>
+  <g
+     style="stroke-width:1.11111112242;stroke:none;fill-rule:evenodd;fill:none"
+     id="Page-1">
+    <g
+       id="04_01_MAPPA_LINEA">
+      <g
+         id="Elementi-LINE/Corsa/version/default_ZOOM_SX-DX-Copy-7">
+        <g
+           id="ICON/mini/!circle">
+          <g
+             id="Group">
+            <g
+               id="Oval">
+              <use
+                 height="100%"
+                 width="100%"
+                 y="0"
+                 x="0"
+                 style="fill:#000000;fill-opacity:1;filter:url(#filter-2)"
+                 xlink:href="#path-1"
+                 id="use18"
+                 transform="matrix(0.555556,0.000000,0.000000,0.555556,3.333333,3.333333)" />
+              <use
+                 height="100%"
+                 width="100%"
+                 y="0"
+                 x="0"
+                 style="fill:#f9423a;fill-rule:evenodd"
+                 xlink:href="#path-1"
+                 id="use20"
+                 transform="matrix(0.555556,0.000000,0.000000,0.555556,3.333333,3.333333)" />
+            </g>
+            <path
+               style="fill:#000000"
+               d="M7.53472241812 10.615625276C7.05593185012 10.615625276 6.66666684 10.2260080437 6.66666684 9.74732080899C6.66666684 9.26863412987 7.05593185012 8.87951411976 7.53472241812 8.87951411976C8.01351298613 8.87951411976 8.40277799625 9.26863412987 8.40277799625 9.74732080899C8.40277799625 10.2260080437 8.01351298613 10.615625276 7.53472241812 10.615625276C7.53472241812 10.615625276 7.53472241812 10.615625276 7.53472241812 10.615625276M6.84027795562 8.1944446575C6.84027795562 8.1944446575 6.84027795562 4.72222240056 6.84027795562 4.72222240056C6.84027795562 4.72222240056 8.22916688062 4.72222240056 8.22916688062 4.72222240056C8.22916688062 4.72222240056 8.22916688062 8.1944446575 8.22916688062 8.1944446575C8.22916688062 8.1944446575 6.84027795562 8.1944446575 6.84027795562 8.1944446575C6.84027795562 8.1944446575 6.84027795562 8.1944446575 6.84027795562 8.1944446575"
+               id="Path-3" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

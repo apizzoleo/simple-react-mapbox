@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="19px" viewBox="0 0 21 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>638EAAC3-1EA1-4A9E-BE09-539B93228C6F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M13.4942658,13.4070289 L1.50586554,13.4070289 C0.919873341,13.4070289 0.437258486,13.1558894 0.181624307,12.7176594 C-0.0835610383,12.2614507 -0.0571548704,11.6945609 0.252977144,11.1619429 L6.24605359,0.826456838 C6.55225277,0.300580835 7.01351796,0 7.51298781,0 C8.011334,0 8.45181136,0.285411335 8.75295404,0.803421671 L14.7482778,11.1754269 C15.0567243,11.7046739 15.0831305,12.2681927 14.8196306,12.7199067 C14.565682,13.1564512 14.0825053,13.4070289 13.4942658,13.4070289" id="path-1"></path>
+        <filter x="-40.0%" y="-44.8%" width="180.0%" height="189.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04_01_MAPPA_LINEA" transform="translate(-863.000000, -898.000000)">
+            <g id="ICON/mini/!circle" transform="translate(866.000000, 900.000000)">
+                <g id="Group" transform="translate(0.000000, 0.625000)">
+                    <g id="Fill-1">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#F9423A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M3.75313789,10.39035 C3.75313789,10.60605 3.9316838,10.78125 4.15170931,10.78125 L10.8482144,10.78125 C11.0681634,10.78125 11.2467858,10.60605 11.2467858,10.39035 C11.2467858,10.174875 11.0681634,9.999825 10.8482144,9.999825 L9.97132664,9.999825 L7.87607155,3.542175 C7.82043379,3.38895 7.67380114,3.28125 7.50000012,3.28125 C7.3261991,3.28125 7.17956645,3.38895 7.12385216,3.54045 L5.02875013,9.999825 L4.15178584,9.999825 C3.93176033,9.999825 3.75313789,10.174875 3.75313789,10.39035 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

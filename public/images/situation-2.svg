@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>E2776D41-55C6-4534-A4D9-65BD1EBBF2A6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M14.0747262,13.636 L1.8815833,13.636 C1.2855833,13.636 0.794726159,13.3805714 0.534726159,12.9348571 C0.265011873,12.4708571 0.291869016,11.8942857 0.607297588,11.3525714 L6.70272616,0.840571429 C7.01415473,0.305714286 7.48329759,0 7.99129759,0 C8.49815473,0 8.94615473,0.290285714 9.25244044,0.817142857 L15.3501547,11.3662857 C15.663869,11.9045714 15.6907262,12.4777143 15.4227262,12.9371429 C15.1644404,13.3811429 14.6730119,13.636 14.0747262,13.636" id="path-1"></path>
+        <filter x="-39.3%" y="-44.0%" width="178.7%" height="188.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04_01_MAPPA_LINEA" transform="translate(-1458.000000, -577.000000)">
+            <g id="INSPECTOR_workarea" transform="translate(1444.000000, 0.000000)">
+                <g id="BOX-LOCATION-Copy">
+                    <g transform="translate(2.000000, 504.000000)">
+                        <g id="BOX_Line-Data">
+                            <g id="Element/Elemento_dettaglio" transform="translate(0.000000, 35.000000)">
+                                <g id="ICON/Attention_02-Copy-2" transform="translate(14.000000, 40.000000)">
+                                    <g id="Group" transform="translate(0.000000, 1.000000)">
+                                        <g id="Fill-1">
+                                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                            <use fill="#F9423A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                        </g>
+                                        <path d="M8,11.9865 C7.31054131,11.9865 6.75,11.425451 6.75,10.7361417 C6.75,10.0468325 7.31054131,9.4865 8,9.4865 C8.68945869,9.4865 9.25,10.0468325 9.25,10.7361417 C9.25,11.425451 8.68945869,11.9865 8,11.9865 Z M7,8.5 L7,3.5 L9,3.5 L9,8.5 L7,8.5 Z" id="Path-3" fill="#000000"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
