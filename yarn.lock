@@ -5864,6 +5864,11 @@ jsonify@~0.0.0:
   resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
   integrity sha1-LHS27kHZPKUbe1qu6PUDYx0lKnM=
 
+jsonq@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/jsonq/-/jsonq-1.2.0.tgz#70f759bd8a02a5011bae27223914df14545f629f"
+  integrity sha512-hFDq++ch9HOkJzfn5LPOeL3uVuHwZp8kfylpLEWygPrPmS/ZjLFcjoo46ilZjaL8cEu8CTSk0paw+pyW4UaMQQ==
+
 jsprim@^1.2.2:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/jsprim/-/jsprim-1.4.1.tgz#313e66bc1e5cc06e438bc1b7499c2e5c56acb6a2"

@@ -3,6 +3,9 @@ import MapGL,{Source, Layer}  from 'react-map-gl';
 // import MapGL  from 'react-map-gl';
 import {request,json as requestJson} from 'd3-request';
 import { dataLayer, imgLayer, modDataLayer } from './map-style';
+
+const { fromJS } = require('immutable');
+const  jsonQ = require("jsonq");
 // import {fromJS} from 'immutable';
 
 // const dataLayer = fromJS({
@@ -93,7 +96,7 @@ export default class Map extends Component {
       loadImage: false,
       // insert your mapbox token
       mapboxApiAccessToken: 'pk.eyJ1IjoiYXBpenpvbGVvIiwiYSI6ImNqbWtkd240eTBhOXQza21taTJhcW9hbWgifQ.uMey3ZGAytPjd4x-94Osxg',
-      // data: null,
+      data: null,
       viewport: {
         latitude: 41.8919300,
         longitude: 12.5113300,
@@ -116,7 +119,20 @@ export default class Map extends Component {
   }
 
   _loadData = data => {
+    // let geojson = fromJS(data);
+    // let jObj = jsonQ(data);
     this.setState({data});
+
+
+    debugger;
+    setTimeout(() => {
+      // const index = geojson.get('features').findIndex((item) => item.getIn(['properties','level']) === 3)
+      // geojson = geojson.setIn(['features',index,'properties','level'],2);
+      let dataTemp = { ...jsonQ.setPathValue(data,['features',2,'properties','level'],2)};
+      this.setState({data: dataTemp});
+      // console.log(geojson.toJSON());
+
+    },5000);
   };
 
   _loadMap = () => {
@@ -169,14 +185,14 @@ export default class Map extends Component {
         height="100%"
         onViewportChange={(viewport) => this.setState({viewport})}>
             <Source type="geojson" data={data}>
-              <Layer {...dataLayer} />
-              <Layer {...modDataLayer} />
+              {/* <Layer {...dataLayer} />
+              <Layer {...modDataLayer} /> */}
               <Layer {...imgLayer} />
            </Source>
-           {loadImage ? <Source type="geojson" data={data}>
+           {/* {loadImage ? <Source type="geojson" data={data}>
 
              <Layer {...imgLayer} />
-          </Source> : null }
+          </Source> : null } */}
       </MapGL>
       </div>
     );

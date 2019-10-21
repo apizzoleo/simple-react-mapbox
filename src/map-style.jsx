@@ -34,7 +34,14 @@ export const imgLayer =  {
   id: 'img-layer',
   "type": "symbol",
   "layout": {
-    "icon-image": "allarme-red-11",
+    "icon-image":  [
+      'step', // arg 1
+      ['get', 'level'], // arg 2
+      'allarme-red-11', // arg 3
+      1, 'allarme-red-11', // rest of the expression is arg 4
+      2, 'allarme-green-11',
+      3, 'allarme-yellow-11'
+     ],
     "icon-size": 1
     }
 };
