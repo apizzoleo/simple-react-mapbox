@@ -1,0 +1,595 @@
+const json = {
+    "responseTimestamp": "2019-10-23T09:54:31.152Z",
+    "ptSituationContext": {
+        "participantRef": null,
+        "topographicPlaceRef": null,
+        "topographicPlaceName": null,
+        "networkContext": null,
+        "actions": null
+    },
+    "situations": [
+        {
+            "countryRef": "ITA",
+            "participantRef": "MOP",
+            "situationNumber": "03217769-f3f6-11e9-9406-576a760cd2c3",
+            "version": "0",
+            "verification": "verified",
+            "progress": "open",
+            "qualityIndex": null,
+            "reality": null,
+            "likelihood": null,
+            "validityPeriod": [
+                {
+                    "start": "2019-10-21T13:29:15Z",
+                    "end": "2019-10-21T18:14:15Z"
+                }
+            ],
+            "repetitions": null,
+            "publicationWindow": null,
+            "reasonType": "miscellaneousReason",
+            "miscellaneousReason": "vandalism",
+            "personnelReason": null,
+            "equipmentReason": null,
+            "environmentReason": null,
+            "publicEventReason": null,
+            "reasonName": null,
+            "miscellaneousSubReason": null,
+            "personnelSubReason": null,
+            "equipmentSubReason": null,
+            "environmentSubReason": null,
+            "severity": "slight",
+            "priority": null,
+            "sensitivity": null,
+            "audience": "public",
+            "reportType": null,
+            "scopeType": "stopPoint",
+            "planned": true,
+            "language": null,
+            "summary": null,
+            "description": "Vandalism with slight consequences on status service",
+            "detail": null,
+            "advice": null,
+            "internal": null,
+            "creationTime": "2019-10-21T11:29:15Z",
+            "references": null,
+            "source": {
+                "timeOfCommunication": "2019-10-21T13:29:15Z",
+                "timeOfObeservation": "2019-10-21T13:29:15Z",
+                "externalCode": null,
+                "agentReference": null,
+                "country": null,
+                "name": null,
+                "sourceType": null,
+                "sourceMethodType": null,
+                "phone": null,
+                "fax": null,
+                "web": null,
+                "other": null
+            },
+            "keywords": [
+                "tag1",
+                "tag2"
+            ],
+            "affects": {
+                "allOperators": false,
+                "operators": [],
+                "stopPoints": [
+                    {
+                        "stopPointRef": "TNPNTS00000000000008",
+                        "stopPointName": "ISOLA",
+                        "location": {
+                            "latitude": null,
+                            "longitude": null,
+                            "precision": null
+                        },
+                        "affectedModes": null,
+                        "placeRef": null,
+                        "placeName": null,
+                        "accessibilityAssessment": null,
+                        "connectionLinks": null
+                    }
+                ],
+                "networks": [],
+                "lines": [],
+                "vehicleJourneys": [],
+                "stopPlaces": [],
+                "places": null
+            },
+            "consequences": null,
+            "publishingActions": null,
+            "extensions": {
+                "custom": "null",
+                "native": {
+                    "updateTime": null,
+                    "descriptionDelete": null,
+                    "situationType": "external",
+                    "expectedStart": "2019-10-21T13:29:15Z",
+                    "expectedEnd": "2019-10-21T18:14:15Z"
+                }
+            },
+            "relatedItems": null
+        },
+        {
+            "countryRef": null,
+            "participantRef": null,
+            "situationNumber": "05dbb0d1-f197-11e9-9406-6f96bac48b72",
+            "version": null,
+            "verification": null,
+            "progress": "closed",
+            "qualityIndex": null,
+            "reality": null,
+            "likelihood": null,
+            "validityPeriod": [
+                {
+                    "start": "2019-10-18T14:01:15Z",
+                    "end": null
+                }
+            ],
+            "repetitions": null,
+            "publicationWindow": null,
+            "reasonType": "miscellaneousReason",
+            "miscellaneousReason": null,
+            "personnelReason": null,
+            "equipmentReason": null,
+            "environmentReason": null,
+            "publicEventReason": null,
+            "reasonName": null,
+            "miscellaneousSubReason": null,
+            "personnelSubReason": null,
+            "equipmentSubReason": null,
+            "environmentSubReason": null,
+            "severity": "normal",
+            "priority": null,
+            "sensitivity": null,
+            "audience": "public",
+            "reportType": null,
+            "scopeType": "stopPoint",
+            "planned": false,
+            "language": null,
+            "summary": null,
+            "description": "Incident with normal consequences on status service",
+            "detail": null,
+            "advice": null,
+            "internal": null,
+            "creationTime": null,
+            "references": null,
+            "source": null,
+            "keywords": null,
+            "affects": null,
+            "consequences": null,
+            "publishingActions": null,
+            "extensions": {
+                "custom": null,
+                "native": {
+                    "updateTime": null,
+                    "descriptionDelete": null,
+                    "situationType": "external",
+                    "expectedStart": null,
+                    "expectedEnd": null
+                }
+            },
+            "relatedItems": null
+        },
+        {
+            "countryRef": "ITA",
+            "participantRef": "MOP",
+            "situationNumber": "06d04a05-f197-11e9-9406-09ec896a2446",
+            "version": "0",
+            "verification": "unknown",
+            "progress": "open",
+            "qualityIndex": null,
+            "reality": null,
+            "likelihood": null,
+            "validityPeriod": [
+                {
+                    "start": "2019-10-18T13:04:15Z",
+                    "end": "2019-10-18T14:01:15Z"
+                }
+            ],
+            "repetitions": null,
+            "publicationWindow": null,
+            "reasonType": "miscellaneousReason",
+            "miscellaneousReason": "incident",
+            "personnelReason": null,
+            "equipmentReason": null,
+            "environmentReason": null,
+            "publicEventReason": null,
+            "reasonName": null,
+            "miscellaneousSubReason": "signalPassedAtDanger",
+            "personnelSubReason": null,
+            "equipmentSubReason": null,
+            "environmentSubReason": null,
+            "severity": "normal",
+            "priority": null,
+            "sensitivity": null,
+            "audience": "public",
+            "reportType": null,
+            "scopeType": "stopPoint",
+            "planned": true,
+            "language": null,
+            "summary": null,
+            "description": "Incident with normal consequences on status service",
+            "detail": null,
+            "advice": null,
+            "internal": null,
+            "creationTime": "2019-10-18T11:04:17Z",
+            "references": null,
+            "source": {
+                "timeOfCommunication": "2019-10-18T13:04:15Z",
+                "timeOfObeservation": "2019-10-18T13:04:15Z",
+                "externalCode": null,
+                "agentReference": null,
+                "country": null,
+                "name": null,
+                "sourceType": null,
+                "sourceMethodType": null,
+                "phone": null,
+                "fax": null,
+                "web": null,
+                "other": null
+            },
+            "keywords": [
+                "tag1",
+                "tag2"
+            ],
+            "affects": {
+                "allOperators": false,
+                "operators": [],
+                "stopPoints": [
+                    {
+                        "stopPointRef": "TNPNTS00000000000042",
+                        "stopPointName": "monumentale m5",
+                        "location": {
+                            "latitude": null,
+                            "longitude": null,
+                            "precision": null
+                        },
+                        "affectedModes": null,
+                        "placeRef": null,
+                        "placeName": null,
+                        "accessibilityAssessment": null,
+                        "connectionLinks": null
+                    },
+                    {
+                        "stopPointRef": "TNPNTS00000000000042",
+                        "stopPointName": "monumentale m5",
+                        "location": {
+                            "latitude": null,
+                            "longitude": null,
+                            "precision": null
+                        },
+                        "affectedModes": null,
+                        "placeRef": null,
+                        "placeName": null,
+                        "accessibilityAssessment": null,
+                        "connectionLinks": null
+                    }
+                ],
+                "networks": [],
+                "lines": [],
+                "vehicleJourneys": [],
+                "stopPlaces": [],
+                "places": null
+            },
+            "consequences": null,
+            "publishingActions": null,
+            "extensions": {
+                "custom": "null",
+                "native": {
+                    "updateTime": null,
+                    "descriptionDelete": null,
+                    "situationType": "external",
+                    "expectedStart": "2019-10-18T13:04:15Z",
+                    "expectedEnd": "2019-10-18T14:01:15Z"
+                }
+            },
+            "relatedItems": null
+        },
+        {
+            "countryRef": null,
+            "participantRef": null,
+            "situationNumber": "092a2595-f570-11e9-9406-855c88a6f3bd",
+            "version": null,
+            "verification": null,
+            "progress": "open",
+            "qualityIndex": null,
+            "reality": null,
+            "likelihood": null,
+            "validityPeriod": [
+                {
+                    "start": "2019-10-23T10:35:15Z",
+                    "end": null
+                }
+            ],
+            "repetitions": null,
+            "publicationWindow": null,
+            "reasonType": "miscellaneousReason",
+            "miscellaneousReason": null,
+            "personnelReason": null,
+            "equipmentReason": null,
+            "environmentReason": null,
+            "publicEventReason": null,
+            "reasonName": null,
+            "miscellaneousSubReason": null,
+            "personnelSubReason": null,
+            "equipmentSubReason": null,
+            "environmentSubReason": null,
+            "severity": "verySlight",
+            "priority": null,
+            "sensitivity": null,
+            "audience": "public",
+            "reportType": null,
+            "scopeType": "stopPoint",
+            "planned": false,
+            "language": null,
+            "summary": null,
+            "description": "Lighting Failure with verySlight consequences on status service",
+            "detail": null,
+            "advice": null,
+            "internal": null,
+            "creationTime": null,
+            "references": null,
+            "source": null,
+            "keywords": null,
+            "affects": null,
+            "consequences": null,
+            "publishingActions": null,
+            "extensions": {
+                "custom": null,
+                "native": {
+                    "updateTime": null,
+                    "descriptionDelete": null,
+                    "situationType": "external",
+                    "expectedStart": null,
+                    "expectedEnd": null
+                }
+            },
+            "relatedItems": null
+        },
+        {
+            "countryRef": null,
+            "participantRef": null,
+            "situationNumber": "0c008bbd-f0e5-11e9-9406-057500ab220b",
+            "version": null,
+            "verification": null,
+            "progress": "closed",
+            "qualityIndex": null,
+            "reality": null,
+            "likelihood": null,
+            "validityPeriod": [
+                {
+                    "start": "2019-10-17T15:50:15Z",
+                    "end": null
+                }
+            ],
+            "repetitions": null,
+            "publicationWindow": null,
+            "reasonType": "miscellaneousReason",
+            "miscellaneousReason": null,
+            "personnelReason": null,
+            "equipmentReason": null,
+            "environmentReason": null,
+            "publicEventReason": null,
+            "reasonName": null,
+            "miscellaneousSubReason": null,
+            "personnelSubReason": null,
+            "equipmentSubReason": null,
+            "environmentSubReason": null,
+            "severity": "severe",
+            "priority": null,
+            "sensitivity": null,
+            "audience": "public",
+            "reportType": null,
+            "scopeType": "network",
+            "planned": false,
+            "language": null,
+            "summary": null,
+            "description": "Incident with severe consequences on status service",
+            "detail": null,
+            "advice": null,
+            "internal": null,
+            "creationTime": null,
+            "references": null,
+            "source": null,
+            "keywords": null,
+            "affects": null,
+            "consequences": null,
+            "publishingActions": null,
+            "extensions": {
+                "custom": null,
+                "native": {
+                    "updateTime": null,
+                    "descriptionDelete": null,
+                    "situationType": "external",
+                    "expectedStart": null,
+                    "expectedEnd": null
+                }
+            },
+            "relatedItems": null
+        },
+        {
+            "countryRef": null,
+            "participantRef": null,
+            "situationNumber": "0fdfc5e9-f0de-11e9-9406-e7b78448c26e",
+            "version": null,
+            "verification": null,
+            "progress": "closed",
+            "qualityIndex": null,
+            "reality": null,
+            "likelihood": null,
+            "validityPeriod": [
+                {
+                    "start": "2019-10-17T15:00:15Z",
+                    "end": null
+                }
+            ],
+            "repetitions": null,
+            "publicationWindow": null,
+            "reasonType": "miscellaneousReason",
+            "miscellaneousReason": null,
+            "personnelReason": null,
+            "equipmentReason": null,
+            "environmentReason": null,
+            "publicEventReason": null,
+            "reasonName": null,
+            "miscellaneousSubReason": null,
+            "personnelSubReason": null,
+            "equipmentSubReason": null,
+            "environmentSubReason": null,
+            "severity": "noImpact",
+            "priority": null,
+            "sensitivity": null,
+            "audience": "public",
+            "reportType": null,
+            "scopeType": "stopPoint",
+            "planned": false,
+            "language": null,
+            "summary": null,
+            "description": "Bomb Explosion with noImpact consequences on status service",
+            "detail": null,
+            "advice": null,
+            "internal": null,
+            "creationTime": null,
+            "references": null,
+            "source": null,
+            "keywords": null,
+            "affects": null,
+            "consequences": null,
+            "publishingActions": null,
+            "extensions": {
+                "custom": null,
+                "native": {
+                    "updateTime": null,
+                    "descriptionDelete": null,
+                    "situationType": "external",
+                    "expectedStart": null,
+                    "expectedEnd": null
+                }
+            },
+            "relatedItems": null
+        },
+        {
+            "countryRef": null,
+            "participantRef": null,
+            "situationNumber": "111b3f2b-f195-11e9-9406-8f7898e239ca",
+            "version": null,
+            "verification": null,
+            "progress": "open",
+            "qualityIndex": null,
+            "reality": null,
+            "likelihood": null,
+            "validityPeriod": [
+                {
+                    "start": "2019-10-18T12:50:15Z",
+                    "end": null
+                }
+            ],
+            "repetitions": null,
+            "publicationWindow": null,
+            "reasonType": "miscellaneousReason",
+            "miscellaneousReason": null,
+            "personnelReason": null,
+            "equipmentReason": null,
+            "environmentReason": null,
+            "publicEventReason": null,
+            "reasonName": null,
+            "miscellaneousSubReason": null,
+            "personnelSubReason": null,
+            "equipmentSubReason": null,
+            "environmentSubReason": null,
+            "severity": "severe",
+            "priority": null,
+            "sensitivity": null,
+            "audience": "public",
+            "reportType": null,
+            "scopeType": "network",
+            "planned": false,
+            "language": null,
+            "summary": null,
+            "description": "Incident with severe consequences on status service",
+            "detail": null,
+            "advice": null,
+            "internal": null,
+            "creationTime": null,
+            "references": null,
+            "source": null,
+            "keywords": null,
+            "affects": null,
+            "consequences": null,
+            "publishingActions": null,
+            "extensions": {
+                "custom": null,
+                "native": {
+                    "updateTime": null,
+                    "descriptionDelete": null,
+                    "situationType": "external",
+                    "expectedStart": null,
+                    "expectedEnd": null
+                }
+            },
+            "relatedItems": null
+        }
+    ]
+}
+
+
+const geoTemplate = {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point"
+            }
+        }
+
+const mainGeoJSOn = {
+    "type": "FeatureCollection",
+    "features": []
+}
+
+// const fconv = elem => R.path(['situations'],elem);
+// R.path(['situations'],json);
+const notUndefined = R.compose(R.not, R.isNil);
+const notEmpty = R.compose(R.not, R.isEmpty);
+const getAffects = elem => R.path(['affects'],elem);
+const getLocation = elem => R.path(['location'],elem);
+const getStopPointRef = elem => R.path(['stopPointRef'],elem);
+const getProgress = elem => R.path(['progress'],elem)  != 'open'
+const toGeo = x => R.assocPath(['geometry','coordinates'],[x.latitude,x.longitude],geoTemplate);
+const toGeo2= x => R.merge(R.assocPath(['properties','stopPointRef'],x.stopPointRef,geoTemplate),R.assocPath(['geometry','coordinates'],[x.location.latitude,x.location.longitude],geoTemplate));
+const filterStopPoints = elem => R.isEmpty(R.path(['stopPoints'],elem))
+const filterNoAffects = elem => R.isNil(R.path(['affects'],elem))
+const costListLens = lensProp('stopPoints')
+// R.assoc("features",
+//  R.reject( R.isNil,R.flatten(
+//                       R.map(getEffects,R.path(
+//                        ['situations'],json)).map(getStopPoints)))
+//    //ap(getLocation))
+// .map(toGeo2),mainGeoJSOn)
+
+// R.reject(getProgress,
+//   R.reject(
+//     R.isNil,R.flatten(
+//             R.map(getEffects,R.path(['situations'],json)))))
+
+// R.flatten(
+// R.map(getEffects,R.path(['situations'],json)))
+
+// R.reject(filterStopPoints,R.reject(R.isNil,R.reject(getProgress,R.path(['situations'],json)).map(getEffects)))
+
+
+const toSituations = json => R.reject(filterNoAffects,
+         R.reject(R.isNil,R.reject(getProgress,R.path(['situations'],json)))
+)
+
+const getStituationNumber = elem => R.map(R.path(["situationNumber"]),elem);
+// const getStopPoints = elem => R.path(['stopPoints'],elem);
+const getStopPoints = elem => R.map(R.path(["affects","stopPoints"]),elem);
+// const matchPhrases = x => R.map(R.objOf('situation-number'))(x)
+//const matchPhrases = x => R.compose(R.objOf('situation-number'),R.map(getAffects))(x)
+
+// getStituationNumber(toSituations(json))
+getStopPoints(toSituations(json))
+// R.merge(getStopPoints(toSituations(json)),getStituationNumber(toSituations(json)))
+// toSituations(json)
+
+
+

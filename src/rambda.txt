@@ -1,0 +1,2334 @@
+const json = {
+  situations: [
+    {
+      key: '03217769-f3f6-11e9-9406-576a760cd2c3',
+      reasonType: 'miscellaneousReason',
+      severity: 'slight',
+      validityPeriod: [
+        {
+          start: '2019-10-21T13:29:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Vandalism with slight consequences on status service',
+      situationNumber: '03217769-f3f6-11e9-9406-576a760cd2c3',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '05dbb0d1-f197-11e9-9406-6f96bac48b72',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-18T14:01:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Incident with normal consequences on status service',
+      situationNumber: '05dbb0d1-f197-11e9-9406-6f96bac48b72',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '06d04a05-f197-11e9-9406-09ec896a2446',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-18T13:04:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Incident with normal consequences on status service',
+      situationNumber: '06d04a05-f197-11e9-9406-09ec896a2446',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+     audience: 'public'
+    },
+    {
+      key: '09a15e16-f3f8-11e9-a33e-6b4ad42889c3',
+      reasonType: 'personnelReason',
+      severity: 'verySlight',
+      validityPeriod: [
+        {
+          start: '2019-10-21T11:43:34Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'test letizia - label',
+      situationNumber: '09a15e16-f3f8-11e9-a33e-6b4ad42889c3',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'infomobility',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'infoServices'
+    },
+    {
+      key: '0c008bbd-f0e5-11e9-9406-057500ab220b',
+      reasonType: 'miscellaneousReason',
+      severity: 'severe',
+      validityPeriod: [
+        {
+          start: '2019-10-17T15:50:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'network',
+      description: 'Incident with severe consequences on status service',
+      situationNumber: '0c008bbd-f0e5-11e9-9406-057500ab220b',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+         descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '0fdfc5e9-f0de-11e9-9406-e7b78448c26e',
+      reasonType: 'miscellaneousReason',
+      severity: 'noImpact',
+      validityPeriod: [
+        {
+          start: '2019-10-17T15:00:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Bomb Explosion with noImpact consequences on status service',
+      situationNumber: '0fdfc5e9-f0de-11e9-9406-e7b78448c26e',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      countryRef: 'ITA',
+      participantRef: 'MOP',
+      situationNumber: '111b3f2b-f195-11e9-9406-8f7898e239ca',
+      version: '0',
+      verification: null,
+      progress: 'open',
+      qualityIndex: null,
+      reality: null,
+      likelihood: null,
+      validityPeriod: [
+        {
+          start: '2019-10-18T12:50:15Z',
+          end: '2019-10-18T15:50:15Z'
+        }
+      ],
+      repetitions: null,
+      publicationWindow: null,
+      reasonType: 'miscellaneousReason',
+      miscellaneousReason: 'incident',
+      personnelReason: null,
+      equipmentReason: null,
+      environmentReason: null,
+      publicEventReason: null,
+      reasonName: null,
+      miscellaneousSubReason: 'signalPassedAtDanger',
+      personnelSubReason: null,
+      equipmentSubReason: null,
+      environmentSubReason: null,
+      severity: 'severe',
+      priority: null,
+      sensitivity: null,
+      audience: 'public',
+      reportType: null,
+      scopeType: 'network',
+      planned: false,
+      language: null,
+      summary: null,
+      description: 'Incident with severe consequences on status service',
+      detail: {
+        code: 200
+      },
+      advice: null,
+      internal: null,
+      creationTime: '2019-10-18T10:50:15Z',
+      references: null,
+      source: {
+        timeOfCommunication: '2019-10-18T12:50:15Z',
+        timeOfObeservation: '2019-10-18T12:50:15Z',
+        externalCode: null,
+        agentReference: null,
+        country: null,
+        name: null,
+        sourceType: null,
+        sourceMethodType: null,
+        phone: null,
+        fax: null,
+        web: null,
+        other: null
+      },
+      keywords: [
+        'tag1',
+        'tag2'
+      ],
+      affects: {
+        allOperators: false,
+        operators: [],
+        stopPoints: [],
+        networks: [
+          {
+            operators: null,
+            networkRef: 'TSPNET00000000000001',
+            networkName: 'mobilita milano',
+            routesAffected: null,
+            vehicleModes: null,
+            allLines: false,
+            selectedRoutes: false,
+            lines: null
+          }
+        ],
+        lines: [
+          {
+            operators: [],
+            lineRef: 'TNLINE00000000000001',
+            publishedLineName: 'T10',
+            destinations: [],
+            directions: [],
+            routes: null,
+            vehicleMode: null
+          }
+        ],
+        vehicleJourneys: [],
+        stopPlaces: [],
+        places: null
+      },
+      consequences: null,
+      publishingActions: null,
+      extensions: {
+        custom: 'null',
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: '2019-10-18T12:50:15Z',
+          expectedEnd: '2019-10-18T15:50:15Z'
+        }
+      },
+      relatedItems: null,
+      key: '111b3f2b-f195-11e9-9406-8f7898e239ca'
+    },
+    {
+      key: '12000821-f400-11e9-9406-3d56fa337414',
+      reasonType: 'environmentReason',
+      severity: 'severe',
+      validityPeriod: [
+        {
+          start: '2019-10-21T14:41:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'network',
+      description: 'Fog with severe consequences on status service',
+      situationNumber: '12000821-f400-11e9-9406-3d56fa337414',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '1d9ec7ed-f3eb-11e9-9406-6b2dc58219ad',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-21T12:11:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'overcrowded with normal consequences on status service',
+      situationNumber: '1d9ec7ed-f3eb-11e9-9406-6b2dc58219ad',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '35226685-f182-11e9-9406-c3bc2e317d6e',
+      reasonType: 'miscellaneousReason',
+      severity: 'verySlight',
+      validityPeriod: [
+        {
+          start: '2019-10-18T10:35:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Lighting Failure with verySlight consequences on status service',
+      situationNumber: '35226685-f182-11e9-9406-c3bc2e317d6e',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '366c46ed-f1ae-11e9-9406-d9b220340c2d',
+      reasonType: 'miscellaneousReason',
+      severity: 'severe',
+      validityPeriod: [
+        {
+          start: '2019-10-18T15:50:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'network',
+      description: 'Incident with severe consequences on status service',
+      situationNumber: '366c46ed-f1ae-11e9-9406-d9b220340c2d',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+     audience: 'public'
+    },
+    {
+      key: '377e757b-f0d7-11e9-9406-51b1cd5ec81a',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-17T14:11:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'overcrowded with normal consequences on status service',
+      situationNumber: '377e757b-f0d7-11e9-9406-51b1cd5ec81a',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '3a47d799-f1a7-11e9-9406-4dc929e7a304',
+      reasonType: 'miscellaneousReason',
+      severity: 'noImpact',
+      validityPeriod: [
+        {
+          start: '2019-10-18T15:00:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Bomb Explosion with noImpact consequences on status service',
+      situationNumber: '3a47d799-f1a7-11e9-9406-4dc929e7a304',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '418e42da-f41a-11e9-a33e-fd15e3f65e15',
+      reasonType: 'miscellaneousReason',
+      severity: 'verySlight',
+      validityPeriod: [
+        {
+          start: '2019-10-21T15:48:31Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'network',
+      description: 'test',
+      situationNumber: '418e42da-f41a-11e9-a33e-fd15e3f65e15',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'infomobility',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '44f63ae5-f3f7-11e9-9406-b52d9180c232',
+      reasonType: 'miscellaneousReason',
+      severity: 'severe',
+      validityPeriod: [
+        {
+          start: '2019-10-21T13:38:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'network',
+      description: 'Incident with severe consequences on status service',
+      situationNumber: '44f63ae5-f3f7-11e9-9406-b52d9180c232',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '45872549-f3d1-11e9-9406-852ed9db28dd',
+      reasonType: 'miscellaneousReason',
+      severity: 'verySlight',
+      validityPeriod: [
+        {
+          start: '2019-10-21T12:56:15Z',
+          end: null
+       }
+      ],
+      progress: 'closed',
+      scopeType: 'network',
+      description: ' with verySlight consequences on status service',
+      situationNumber: '45872549-f3d1-11e9-9406-852ed9db28dd',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '45be88fd-f3d1-11e9-9406-49b8267b6821',
+      reasonType: 'miscellaneousReason',
+      severity: 'verySlight',
+      validityPeriod: [
+        {
+          start: '2019-10-21T09:06:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'network',
+      description: ' with verySlight consequences on status service',
+      situationNumber: '45be88fd-f3d1-11e9-9406-49b8267b6821',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+         descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '4a98730d-f3f6-11e9-9406-6315da7d056e',
+      reasonType: 'environmentReason',
+      severity: 'slight',
+      validityPeriod: [
+        {
+          start: '2019-10-21T17:57:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Heavy Snowfall with slight consequences on status service',
+      situationNumber: '4a98730d-f3f6-11e9-9406-6315da7d056e',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '4ab4d4b1-f3f6-11e9-9406-edd8da20ec4b',
+      reasonType: 'environmentReason',
+      severity: 'slight',
+      validityPeriod: [
+        {
+          start: '2019-10-21T13:31:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Heavy Snowfall with slight consequences on status service',
+      situationNumber: '4ab4d4b1-f3f6-11e9-9406-edd8da20ec4b',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '4c42d1c9-f1b6-11e9-8ac6-cb3a60a545d6',
+      reasonType: 'miscellaneousReason',
+      severity: 'noImpact',
+      validityPeriod: [
+        {
+          start: '2019-05-16T02:49:01Z',
+          end: null
+        },
+        {
+          start: '2019-05-16T02:49:02Z',
+          end: null
+        },
+        {
+          start: '2019-05-16T02:49:03Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'network',
+      description: 'test fra inserimento',
+      situationNumber: '4c42d1c9-f1b6-11e9-8ac6-cb3a60a545d6',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'transport',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'transportOperators'
+    },
+    {
+      key: '51331f13-f190-11e9-9406-ed605dea2b92',
+      reasonType: 'miscellaneousReason',
+      severity: 'unknown',
+      validityPeriod: [
+        {
+          start: '2019-10-18T12:16:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Security Alert with unknown consequences on status service',
+      situationNumber: '51331f13-f190-11e9-9406-ed605dea2b92',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '51c6faa7-f190-11e9-9406-fdf23b447105',
+      reasonType: 'miscellaneousReason',
+      severity: 'unknown',
+      validityPeriod: [
+        {
+          start: '2019-10-18T17:55:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Security Alert with unknown consequences on status service',
+      situationNumber: '51c6faa7-f190-11e9-9406-fdf23b447105',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+     },
+      audience: 'public'
+    },
+    {
+      key: '59823fd9-f0d1-11e9-9406-b9fbd84324d8',
+      reasonType: 'miscellaneousReason',
+      severity: 'slight',
+      validityPeriod: [
+        {
+          start: '2019-10-17T13:29:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Vandalism with slight consequences on status service',
+      situationNumber: '59823fd9-f0d1-11e9-9406-b9fbd84324d8',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '61e6af3b-f1a0-11e9-9406-d361b4364bac',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-18T14:11:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'overcrowded with normal consequences on status service',
+      situationNumber: '61e6af3b-f1a0-11e9-9406-d361b4364bac',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '643b5af1-f180-11e9-9406-6b710c3b6d61',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-18T10:22:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Leader Board failure with normal consequences on status service',
+      situationNumber: '643b5af1-f180-11e9-9406-6b710c3b6d61',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      countryRef: 'ITA',
+      participantRef: 'MOP',
+      situationNumber: '685d7531-f0db-11e9-9406-e3f7ab8160f9',
+      version: '0',
+      verification: null,
+      progress: 'open',
+      qualityIndex: null,
+      reality: null,
+      likelihood: null,
+      validityPeriod: [
+        {
+          start: '2019-10-17T14:41:15Z',
+          end: '2019-10-17T20:41:15Z'
+        }
+      ],
+      repetitions: null,
+      publicationWindow: null,
+      reasonType: 'environmentReason',
+      miscellaneousReason: null,
+      personnelReason: null,
+      equipmentReason: null,
+      environmentReason: 'fog',
+      publicEventReason: null,
+      reasonName: null,
+      miscellaneousSubReason: null,
+      personnelSubReason: null,
+      equipmentSubReason: null,
+      environmentSubReason: null,
+      severity: 'severe',
+      priority: null,
+      sensitivity: null,
+      audience: 'public',
+      reportType: null,
+      scopeType: 'network',
+      planned: false,
+      language: null,
+      summary: null,
+      description: 'Fog with severe consequences on status service',
+      detail: {
+        code: 200
+      },
+      advice: null,
+      internal: null,
+      creationTime: '2019-10-17T12:41:15Z',
+      references: null,
+      source: {
+        timeOfCommunication: '2019-10-17T14:41:15Z',
+        timeOfObeservation: '2019-10-17T14:41:15Z',
+        externalCode: null,
+        agentReference: null,
+        country: null,
+        name: null,
+        sourceType: null,
+        sourceMethodType: null,
+        phone: null,
+        fax: null,
+        web: null,
+        other: null
+      },
+      keywords: [
+        'tag1',
+        'tag2'
+      ],
+      affects: {
+       allOperators: false,
+        operators: [],
+        stopPoints: [
+          {
+            "stopPointRef": "string",
+            "stopPointName": "string",
+            "location": {
+              "latitude": 45,
+              "longitude": 12,
+              "precision": 0
+            },
+            "affectedModes": [
+              "unknown"
+            ],
+            "placeRef": "string",
+            "placeName": "string",
+            "accessibilityAssessment": {
+              "mobilityImpairedAccess": true,
+              "limitation": {
+                "wheelchairAccess": true,
+                "stepFreeAccess": true,
+                "escalatorAccess": true,
+                "liftFreeAccess": true,
+                "audibleSignsAvailable": true,
+                "visualSignsAvailable": true
+              },
+              "suitabilities": [
+                {
+                  "suitable": "suitable",
+                  "userNeed": {
+                    "mobilityNeed": "wheelchair",
+                    "medicalNeed": "allergic",
+                    "psychoSensoryNeed": "visualImpairment",
+                    "encumbranceNeed": "luggageEncumbered"
+                  }
+                }
+              ]
+            },
+            "connectionLinks": [
+              {
+                "connectionLinkRef": "string",
+                "connectionName": "string",
+                "location": {
+                  "latitude": 0,
+                  "longitude": 0,
+                  "precision": 0
+                },
+                "lines": [
+                  {
+                    "lineRef": "string"
+                  }
+                ],
+                "connectingStopPointRef": "string",
+                "connectingStopPointName": "string",
+                "connectionDirection": "both",
+                "affectedPathLinks": [
+                  {
+                    "linkRef": "string",
+                    "linkName": "string",
+                    "accessibilityFeature": "lift",
+                    "linkDirection": "string"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        networks: [
+          {
+            operators: null,
+            networkRef: 'TSPNET00000000000001',
+            networkName: 'mobilita milano',
+            routesAffected: null,
+            vehicleModes: null,
+            allLines: false,
+            selectedRoutes: false,
+            lines: null
+          }
+        ],
+        lines: [
+          {
+            operators: [],
+            lineRef: 'TNLINE00000000000038',
+            publishedLineName: 'B39',
+            destinations: [],
+            directions: [],
+            routes: null,
+            vehicleMode: null
+          },
+          {
+            operators: [],
+            lineRef: 'TNLINE00000000000001',
+            publishedLineName: 'T10',
+            destinations: [],
+            directions: [],
+            routes: null,
+            vehicleMode: null
+          }
+        ],
+        vehicleJourneys: [],
+        stopPlaces: [],
+        places: null
+      },
+      consequences: null,
+      publishingActions: null,
+      extensions: {
+        custom: 'null',
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: '2019-10-17T14:41:15Z',
+          expectedEnd: '2019-10-17T20:41:15Z'
+        }
+      },
+      relatedItems: null,
+      key: '685d7531-f0db-11e9-9406-e3f7ab8160f9'
+    },
+    {
+      key: '6a437303-f410-11e9-9406-4546eea5708d',
+      reasonType: 'miscellaneousReason',
+      severity: 'severe',
+      validityPeriod: [
+        {
+          start: '2019-10-21T16:38:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'network',
+      description: 'Incident with severe consequences on status service',
+      situationNumber: '6a437303-f410-11e9-9406-4546eea5708d',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '7a0c5339-f3e1-11e9-9406-75aaa7513a1e',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-21T11:02:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Leader Board failure with normal consequences on status service',
+      situationNumber: '7a0c5339-f3e1-11e9-9406-75aaa7513a1e',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '7faab879-f1b5-11e9-8ac6-5b3f22a4c593',
+      reasonType: 'miscellaneousReason',
+      severity: 'noImpact',
+      validityPeriod: [
+        {
+          start: '2019-05-16T02:49:00Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'network',
+      description: 'test fra inserimento',
+      situationNumber: '7faab879-f1b5-11e9-8ac6-5b3f22a4c593',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'transport',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'transportOperators'
+    },
+    {
+      key: '83dc6fd9-f19a-11e9-9406-0b711be34520',
+      reasonType: 'miscellaneousReason',
+      severity: 'slight',
+      validityPeriod: [
+        {
+          start: '2019-10-18T13:29:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Vandalism with slight consequences on status service',
+      situationNumber: '83dc6fd9-f19a-11e9-9406-0b711be34520',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '850d0951-f3f2-11e9-9406-7fc77d180c3d',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-21T14:01:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Incident with normal consequences on status service',
+      situationNumber: '850d0951-f3f2-11e9-9406-7fc77d180c3d',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: '8539e5b5-f3f2-11e9-9406-131d8e2c042f',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-21T13:04:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Incident with normal consequences on status service',
+      situationNumber: '8539e5b5-f3f2-11e9-9406-131d8e2c042f',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      countryRef: 'ITA',
+      participantRef: 'MOP',
+      situationNumber: '905f5c5b-f3f0-11e9-9406-87abb129d9f3',
+      version: '0',
+      verification: null,
+      progress: 'open',
+      qualityIndex: null,
+      reality: null,
+      likelihood: null,
+      validityPeriod: [
+        {
+          start: '2019-10-21T12:50:15Z',
+          end: '2019-10-21T15:50:15Z'
+        }
+      ],
+      repetitions: null,
+      publicationWindow: null,
+      reasonType: 'miscellaneousReason',
+      miscellaneousReason: 'incident',
+      personnelReason: null,
+      equipmentReason: null,
+      environmentReason: null,
+      publicEventReason: null,
+      reasonName: null,
+      miscellaneousSubReason: 'signalPassedAtDanger',
+      personnelSubReason: null,
+      equipmentSubReason: null,
+      environmentSubReason: null,
+      severity: 'severe',
+      priority: null,
+      sensitivity: null,
+      audience: 'public',
+      reportType: null,
+      scopeType: 'network',
+      planned: false,
+      language: null,
+      summary: null,
+      description: 'Incident with severe consequences on status service',
+      detail: {
+        code: 200
+      },
+      advice: null,
+      internal: null,
+      creationTime: '2019-10-21T10:50:15Z',
+      references: null,
+      source: {
+        timeOfCommunication: '2019-10-21T12:50:15Z',
+        timeOfObeservation: '2019-10-21T12:50:15Z',
+        externalCode: null,
+        agentReference: null,
+        country: null,
+        name: null,
+        sourceType: null,
+        sourceMethodType: null,
+        phone: null,
+        fax: null,
+        web: null,
+        other: null
+      },
+      keywords: [
+        'tag1',
+        'tag2'
+      ],
+      affects: {
+        allOperators: false,
+        operators: [],
+        stopPoints: [],
+        networks: [
+          {
+            operators: null,
+            networkRef: 'TSPNET00000000000001',
+            networkName: 'mobilita milano',
+            routesAffected: null,
+            vehicleModes: null,
+            allLines: false,
+            selectedRoutes: false,
+            lines: null
+          }
+        ],
+        lines: [
+          {
+            operators: [],
+            lineRef: 'TNLINE00000000000001',
+            publishedLineName: 'T10',
+            destinations: [],
+            directions: [],
+            routes: null,
+            vehicleMode: null
+          }
+        ],
+        vehicleJourneys: [],
+        stopPlaces: [],
+        places: null
+      },
+      consequences: null,
+      publishingActions: null,
+      extensions: {
+        custom: 'null',
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: '2019-10-21T12:50:15Z',
+          expectedEnd: '2019-10-21T15:50:15Z'
+        }
+      },
+      relatedItems: null,
+      key: '905f5c5b-f3f0-11e9-9406-87abb129d9f3'
+    },
+    {
+      countryRef: 'ITA',
+      participantRef: 'MOP',
+      situationNumber: '92c3d931-f1a4-11e9-9406-1de0bb6856cb',
+      version: '0',
+      verification: null,
+      progress: 'open',
+      qualityIndex: null,
+      reality: null,
+      likelihood: null,
+      validityPeriod: [
+        {
+          start: '2019-10-18T14:41:15Z',
+          end: '2019-10-18T20:41:15Z'
+        }
+      ],
+      repetitions: null,
+      publicationWindow: null,
+      reasonType: 'environmentReason',
+      miscellaneousReason: null,
+      personnelReason: null,
+      equipmentReason: null,
+      environmentReason: 'fog',
+      publicEventReason: null,
+      reasonName: null,
+      miscellaneousSubReason: null,
+      personnelSubReason: null,
+      equipmentSubReason: null,
+      environmentSubReason: null,
+      severity: 'severe',
+      priority: null,
+      sensitivity: null,
+      audience: 'public',
+      reportType: null,
+      scopeType: 'network',
+      planned: false,
+      language: null,
+      summary: null,
+      description: 'Fog with severe consequences on status service',
+      detail: {
+        code: 200
+      },
+      advice: null,
+      internal: null,
+      creationTime: '2019-10-18T12:41:15Z',
+      references: null,
+      source: {
+        timeOfCommunication: '2019-10-18T14:41:15Z',
+        timeOfObeservation: '2019-10-18T14:41:15Z',
+        externalCode: null,
+        agentReference: null,
+        country: null,
+        name: null,
+        sourceType: null,
+        sourceMethodType: null,
+        phone: null,
+        fax: null,
+        web: null,
+        other: null
+      },
+      keywords: [
+        'tag1',
+        'tag2'
+      ],
+      affects: {
+        allOperators: false,
+        operators: [],
+        stopPoints: [],
+        networks: [
+          {
+            operators: null,
+            networkRef: 'TSPNET00000000000001',
+            networkName: 'mobilita milano',
+            routesAffected: null,
+            vehicleModes: null,
+            allLines: false,
+            selectedRoutes: false,
+            lines: null
+          }
+        ],
+        lines: [
+          {
+            operators: [],
+            lineRef: 'TNLINE00000000000038',
+            publishedLineName: 'B39',
+            destinations: [],
+            directions: [],
+            routes: null,
+            vehicleMode: null
+          },
+          {
+            operators: [],
+            lineRef: 'TNLINE00000000000001',
+            publishedLineName: 'T10',
+            destinations: [],
+            directions: [],
+            routes: null,
+            vehicleMode: null
+          }
+        ],
+        vehicleJourneys: [],
+        stopPlaces: [],
+        places: null
+      },
+      consequences: null,
+      publishingActions: null,
+      extensions: {
+        custom: 'null',
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: '2019-10-18T14:41:15Z',
+          expectedEnd: '2019-10-18T20:41:15Z'
+        }
+      },
+      relatedItems: null,
+      key: '92c3d931-f1a4-11e9-9406-1de0bb6856cb'
+    },
+    {
+      countryRef: 'ITA',
+      participantRef: 'MOP',
+      situationNumber: '9b529685-f0d2-11e9-9406-39a8b4e7b49d',
+      version: '0',
+      verification: null,
+      progress: 'open',
+      qualityIndex: null,
+      reality: null,
+      likelihood: null,
+      validityPeriod: [
+        {
+          start: '2019-10-17T13:38:15Z',
+          end: '2019-10-17T16:38:15Z'
+        }
+      ],
+      repetitions: null,
+      publicationWindow: null,
+      reasonType: 'miscellaneousReason',
+      miscellaneousReason: 'incident',
+      personnelReason: null,
+      equipmentReason: null,
+      environmentReason: null,
+      publicEventReason: null,
+      reasonName: null,
+      miscellaneousSubReason: 'signalPassedAtDanger',
+      personnelSubReason: null,
+      equipmentSubReason: null,
+      environmentSubReason: null,
+      severity: 'severe',
+      priority: null,
+      sensitivity: null,
+      audience: 'public',
+      reportType: null,
+      scopeType: 'network',
+      planned: false,
+      language: null,
+      summary: null,
+      description: 'Incident with severe consequences on status service',
+      detail: {
+        code: 200
+      },
+      advice: null,
+      internal: null,
+      creationTime: '2019-10-17T11:38:15Z',
+      references: null,
+      source: {
+        timeOfCommunication: '2019-10-17T13:38:15Z',
+        timeOfObeservation: '2019-10-17T13:38:15Z',
+        externalCode: null,
+        agentReference: null,
+        country: null,
+        name: null,
+        sourceType: null,
+        sourceMethodType: null,
+        phone: null,
+        fax: null,
+        web: null,
+        other: null
+      },
+      keywords: [
+        'tag1',
+        'tag2'
+      ],
+      affects: {
+        allOperators: false,
+        operators: [],
+        stopPoints: [],
+        networks: [
+          {
+            operators: null,
+            networkRef: 'TSPNET00000000000001',
+            networkName: 'mobilita milano',
+            routesAffected: null,
+            vehicleModes: null,
+            allLines: false,
+            selectedRoutes: false,
+            lines: null
+          }
+        ],
+        lines: [
+          {
+            operators: [],
+            lineRef: 'TNLINE00000000000038',
+            publishedLineName: 'B39',
+            destinations: [],
+            directions: [],
+            routes: null,
+            vehicleMode: null
+          }
+        ],
+        vehicleJourneys: [],
+        stopPlaces: [],
+        places: null
+      },
+      consequences: null,
+      publishingActions: null,
+      extensions: {
+        custom: 'null',
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: '2019-10-17T13:38:15Z',
+          expectedEnd: '2019-10-17T16:38:15Z'
+        }
+      },
+      relatedItems: null,
+      key: '9b529685-f0d2-11e9-9406-39a8b4e7b49d'
+    },
+    {
+      key: '9e59c05d-f18f-11e9-9406-6700a1be3566',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-18T12:11:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'overcrowded with normal consequences on status service',
+      situationNumber: '9e59c05d-f18f-11e9-9406-6700a1be3566',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'a0f89f3d-f0d1-11e9-9406-ab5a4e6f3509',
+      reasonType: 'environmentReason',
+      severity: 'slight',
+      validityPeriod: [
+        {
+          start: '2019-10-17T17:57:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Heavy Snowfall with slight consequences on status service',
+      situationNumber: 'a0f89f3d-f0d1-11e9-9406-ab5a4e6f3509',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'a16d0bf1-f0d1-11e9-9406-0f7cbc6755c2',
+      reasonType: 'environmentReason',
+     severity: 'slight',
+      validityPeriod: [
+        {
+          start: '2019-10-17T13:31:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Heavy Snowfall with slight consequences on status service',
+      situationNumber: 'a16d0bf1-f0d1-11e9-9406-0f7cbc6755c2',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      countryRef: 'ITA',
+      participantRef: 'MOP',
+      situationNumber: 'af2eeb75-f1ab-11e9-8ac6-f77d95c9b480',
+      version: '0',
+      verification: null,
+      progress: 'open',
+      qualityIndex: null,
+      reality: null,
+      likelihood: null,
+      validityPeriod: [
+        {
+          start: '2019-10-18T13:31:50Z',
+          end: null
+        }
+      ],
+      repetitions: null,
+      publicationWindow: null,
+      reasonType: 'environmentReason',
+      miscellaneousReason: null,
+      personnelReason: null,
+      equipmentReason: null,
+      environmentReason: null,
+      publicEventReason: null,
+      reasonName: null,
+      miscellaneousSubReason: null,
+      personnelSubReason: null,
+      equipmentSubReason: null,
+      environmentSubReason: null,
+      severity: 'verySevere',
+      priority: null,
+      sensitivity: null,
+      audience: 'infoServices',
+      reportType: null,
+      scopeType: 'network',
+      planned: false,
+      language: null,
+      summary: null,
+      description: 'prova 1',
+      detail: {
+        code: 200
+      },
+      advice: null,
+      internal: null,
+      creationTime: '2019-10-18T13:32:09Z',
+      references: null,
+      source: null,
+      keywords: null,
+      affects: {
+        allOperators: false,
+        operators: [],
+        stopPoints: [],
+        networks: [
+          {
+            operators: null,
+            networkRef: 'TSPNET00000001000021',
+            networkName: 'Network FTA (test)',
+            routesAffected: null,
+            vehicleModes: null,
+            allLines: false,
+            selectedRoutes: false,
+            lines: null
+          }
+        ],
+        lines: [],
+        vehicleJourneys: [],
+        stopPlaces: [],
+        places: null
+      },
+      consequences: null,
+      publishingActions: null,
+      extensions: {
+        custom: 'null',
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'infomobility',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      relatedItems: null,
+      key: 'af2eeb75-f1ab-11e9-8ac6-f77d95c9b480'
+    },
+    {
+      key: 'b45cbfb5-f3dd-11e9-9406-a3075952d734',
+      reasonType: 'miscellaneousReason',
+      severity: 'verySlight',
+      validityPeriod: [
+        {
+          start: '2019-10-21T10:35:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Lighting Failure with verySlight consequences on status service',
+      situationNumber: 'b45cbfb5-f3dd-11e9-9406-a3075952d734',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'b5a9874d-f409-11e9-9406-4f7ede9c5c83',
+      reasonType: 'miscellaneousReason',
+      severity: 'severe',
+      validityPeriod: [
+        {
+          start: '2019-10-21T15:50:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'network',
+      description: 'Incident with severe consequences on status service',
+      situationNumber: 'b5a9874d-f409-11e9-9406-4f7ede9c5c83',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'b9856619-f402-11e9-9406-417956be90a0',
+      reasonType: 'miscellaneousReason',
+      severity: 'noImpact',
+      validityPeriod: [
+        {
+          start: '2019-10-21T15:00:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Bomb Explosion with noImpact consequences on status service',
+      situationNumber: 'b9856619-f402-11e9-9406-417956be90a0',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'c09bd703-f0eb-11e9-9406-c3a00d33adc2',
+      reasonType: 'miscellaneousReason',
+      severity: 'severe',
+      validityPeriod: [
+        {
+          start: '2019-10-17T16:38:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'network',
+      description: 'Incident with severe consequences on status service',
+      situationNumber: 'c09bd703-f0eb-11e9-9406-c3a00d33adc2',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+     audience: 'public'
+    },
+    {
+      countryRef: 'ITA',
+      participantRef: 'MOP',
+      situationNumber: 'c5b85f45-f19b-11e9-9406-f9b87fe45f7a',
+      version: '0',
+      verification: null,
+      progress: 'open',
+      qualityIndex: null,
+      reality: null,
+      likelihood: null,
+      validityPeriod: [
+        {
+          start: '2019-10-18T13:38:15Z',
+          end: '2019-10-18T16:38:15Z'
+        }
+      ],
+      repetitions: null,
+      publicationWindow: null,
+      reasonType: 'miscellaneousReason',
+      miscellaneousReason: 'incident',
+      personnelReason: null,
+      equipmentReason: null,
+      environmentReason: null,
+      publicEventReason: null,
+      reasonName: null,
+      miscellaneousSubReason: 'signalPassedAtDanger',
+      personnelSubReason: null,
+      equipmentSubReason: null,
+      environmentSubReason: null,
+      severity: 'severe',
+      priority: null,
+      sensitivity: null,
+      audience: 'public',
+      reportType: null,
+      scopeType: 'network',
+      planned: false,
+      language: null,
+      summary: null,
+      description: 'Incident with severe consequences on status service',
+      detail: {
+        code: 200
+      },
+      advice: null,
+      internal: null,
+      creationTime: '2019-10-18T11:38:15Z',
+      references: null,
+      source: {
+        timeOfCommunication: '2019-10-18T13:38:15Z',
+        timeOfObeservation: '2019-10-18T13:38:15Z',
+        externalCode: null,
+        agentReference: null,
+        country: null,
+        name: null,
+        sourceType: null,
+        sourceMethodType: null,
+        phone: null,
+        fax: null,
+        web: null,
+        other: null
+      },
+      keywords: [
+        'tag1',
+        'tag2'
+      ],
+      affects: {
+        allOperators: false,
+        operators: [],
+        stopPoints: [],
+        networks: [
+          {
+            operators: null,
+            networkRef: 'TSPNET00000000000001',
+            networkName: 'mobilita milano',
+            routesAffected: null,
+            vehicleModes: null,
+            allLines: false,
+            selectedRoutes: false,
+            lines: null
+          }
+        ],
+        lines: [
+          {
+            operators: [],
+            lineRef: 'TNLINE00000000000038',
+            publishedLineName: 'B39',
+            destinations: [],
+            directions: [],
+            routes: null,
+            vehicleMode: null
+          }
+        ],
+        vehicleJourneys: [],
+        stopPlaces: [],
+        places: null
+      },
+      consequences: null,
+      publishingActions: null,
+      extensions: {
+        custom: 'null',
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: '2019-10-18T13:38:15Z',
+          expectedEnd: '2019-10-18T16:38:15Z'
+        }
+      },
+      relatedItems: null,
+      key: 'c5b85f45-f19b-11e9-9406-f9b87fe45f7a'
+    },
+    {
+      key: 'c655f3d9-f175-11e9-9406-bbdfbf36d2c9',
+      reasonType: 'miscellaneousReason',
+      severity: 'verySlight',
+      validityPeriod: [
+        {
+          start: '2019-10-18T12:56:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'network',
+      description: ' with verySlight consequences on status service',
+      situationNumber: 'c655f3d9-f175-11e9-9406-bbdfbf36d2c9',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'c8f9005d-f175-11e9-9406-97b918ddbff2',
+      reasonType: 'miscellaneousReason',
+      severity: 'verySlight',
+      validityPeriod: [
+        {
+          start: '2019-10-18T09:06:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'network',
+      description: ' with verySlight consequences on status service',
+      situationNumber: 'c8f9005d-f175-11e9-9406-97b918ddbff2',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'cb62d4cd-f19a-11e9-9406-9375f62adc08',
+      reasonType: 'environmentReason',
+      severity: 'slight',
+      validityPeriod: [
+        {
+          start: '2019-10-18T13:31:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Heavy Snowfall with slight consequences on status service',
+      situationNumber: 'cb62d4cd-f19a-11e9-9406-9375f62adc08',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'cd28a0b1-f19a-11e9-9406-f9e4961a76cf',
+      reasonType: 'environmentReason',
+      severity: 'slight',
+      validityPeriod: [
+        {
+          start: '2019-10-18T17:57:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Heavy Snowfall with slight consequences on status service',
+      situationNumber: 'cd28a0b1-f19a-11e9-9406-f9e4961a76cf',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'd06513d3-f3eb-11e9-9406-49357499b975',
+      reasonType: 'miscellaneousReason',
+      severity: 'unknown',
+      validityPeriod: [
+        {
+          start: '2019-10-21T17:55:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Security Alert with unknown consequences on status service',
+      situationNumber: 'd06513d3-f3eb-11e9-9406-49357499b975',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'd08baea7-f3eb-11e9-9406-0b953dbd0cca',
+      reasonType: 'miscellaneousReason',
+      severity: 'unknown',
+      validityPeriod: [
+        {
+          start: '2019-10-21T12:16:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Security Alert with unknown consequences on status service',
+      situationNumber: 'd08baea7-f3eb-11e9-9406-0b953dbd0cca',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'db6c7231-f0cd-11e9-9406-db7594e345e0',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-17T13:04:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Incident with normal consequences on status service',
+      situationNumber: 'db6c7231-f0cd-11e9-9406-db7594e345e0',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'dbb22dc5-f0cd-11e9-9406-fd9c3d97616a',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-17T14:01:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Incident with normal consequences on status service',
+      situationNumber: 'dbb22dc5-f0cd-11e9-9406-fd9c3d97616a',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'e12db29b-f3fb-11e9-9406-a96bf60078b1',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-21T14:11:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'overcrowded with normal consequences on status service',
+      situationNumber: 'e12db29b-f3fb-11e9-9406-a96bf60078b1',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'e3740671-f3db-11e9-9406-135cd5f356f9',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-21T10:22:15Z',
+          end: null
+        }
+      ],
+      progress: 'open',
+      scopeType: 'stopPoint',
+      description: 'Leader Board failure with normal consequences on status service',
+      situationNumber: 'e3740671-f3db-11e9-9406-135cd5f356f9',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      countryRef: 'ITA',
+      participantRef: 'MOP',
+      situationNumber: 'e6c0e81b-f0cb-11e9-9406-8dd674932abe',
+      version: '0',
+      verification: null,
+      progress: 'open',
+      qualityIndex: null,
+      reality: null,
+      likelihood: null,
+      validityPeriod: [
+        {
+          start: '2019-10-17T12:50:15Z',
+          end: '2019-10-17T15:50:15Z'
+        }
+      ],
+      repetitions: null,
+      publicationWindow: null,
+      reasonType: 'miscellaneousReason',
+      miscellaneousReason: 'incident',
+      personnelReason: null,
+      equipmentReason: null,
+      environmentReason: null,
+      publicEventReason: null,
+      reasonName: null,
+     miscellaneousSubReason: 'signalPassedAtDanger',
+      personnelSubReason: null,
+      equipmentSubReason: null,
+      environmentSubReason: null,
+      severity: 'severe',
+      priority: null,
+      sensitivity: null,
+      audience: 'public',
+      reportType: null,
+      scopeType: 'network',
+      planned: false,
+      language: null,
+      summary: null,
+      description: 'Incident with severe consequences on status service',
+      detail: {
+        code: 200
+      },
+      advice: null,
+      internal: null,
+      creationTime: '2019-10-17T10:50:15Z',
+      references: null,
+      source: {
+        timeOfCommunication: '2019-10-17T12:50:15Z',
+        timeOfObeservation: '2019-10-17T12:50:15Z',
+        externalCode: null,
+        agentReference: null,
+        country: null,
+        name: null,
+        sourceType: null,
+        sourceMethodType: null,
+        phone: null,
+        fax: null,
+        web: null,
+        other: null
+      },
+      keywords: [
+        'tag1',
+        'tag2'
+      ],
+      affects: {
+        allOperators: false,
+        operators: [],
+        stopPoints: [
+          {
+            "stopPointRef": "SP2",
+            "stopPointName": "string",
+            "location": {
+              "latitude": 55,
+              "longitude": 11,
+              "precision": 0
+            },
+            "affectedModes": [
+              "unknown"
+            ],
+            "placeRef": "string",
+            "placeName": "string",
+            "accessibilityAssessment": {
+              "mobilityImpairedAccess": true,
+              "limitation": {
+                "wheelchairAccess": true,
+                "stepFreeAccess": true,
+                "escalatorAccess": true,
+                "liftFreeAccess": true,
+                "audibleSignsAvailable": true,
+                "visualSignsAvailable": true
+              },
+              "suitabilities": [
+                {
+                  "suitable": "suitable",
+                  "userNeed": {
+                    "mobilityNeed": "wheelchair",
+                    "medicalNeed": "allergic",
+                    "psychoSensoryNeed": "visualImpairment",
+                    "encumbranceNeed": "luggageEncumbered"
+                  }
+                }
+              ]
+            },
+            "connectionLinks": [
+              {
+                "connectionLinkRef": "string",
+                "connectionName": "string",
+                "location": {
+                  "latitude": 0,
+                  "longitude": 0,
+                  "precision": 0
+                },
+                "lines": [
+                  {
+                    "lineRef": "string"
+                  }
+                ],
+                "connectingStopPointRef": "string",
+                "connectingStopPointName": "string",
+                "connectionDirection": "both",
+                "affectedPathLinks": [
+                  {
+                    "linkRef": "string",
+                    "linkName": "string",
+                    "accessibilityFeature": "lift",
+                    "linkDirection": "string"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        networks: [
+          {
+            operators: null,
+            networkRef: 'TSPNET00000000000001',
+            networkName: 'mobilita milano',
+            routesAffected: null,
+            vehicleModes: null,
+            allLines: false,
+            selectedRoutes: false,
+            lines: null
+          }
+        ],
+        lines: [
+          {
+            operators: [],
+            lineRef: 'TNLINE00000000000001',
+            publishedLineName: 'T10',
+            destinations: [],
+            directions: [],
+            routes: null,
+            vehicleMode: null
+          }
+        ],
+        vehicleJourneys: [],
+        stopPlaces: [],
+        places: null
+      },
+      consequences: null,
+      publishingActions: null,
+      extensions: {
+        custom: 'null',
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: '2019-10-17T12:50:15Z',
+          expectedEnd: '2019-10-17T15:50:15Z'
+        }
+      },
+      relatedItems: null,
+      key: 'e6c0e81b-f0cb-11e9-9406-8dd674932abe'
+    },
+    {
+      key: 'eb09b513-f1b4-11e9-9406-3554e8ab2db5',
+      reasonType: 'miscellaneousReason',
+      severity: 'severe',
+      validityPeriod: [
+        {
+          start: '2019-10-18T16:38:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'network',
+      description: 'Incident with severe consequences on status service',
+      situationNumber: 'eb09b513-f1b4-11e9-9406-3554e8ab2db5',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    },
+    {
+      key: 'fabdaeb9-f185-11e9-9406-0fe662eb1b65',
+      reasonType: 'miscellaneousReason',
+      severity: 'normal',
+      validityPeriod: [
+        {
+          start: '2019-10-18T11:02:15Z',
+          end: null
+        }
+      ],
+      progress: 'closed',
+      scopeType: 'stopPoint',
+      description: 'Leader Board failure with normal consequences on status service',
+      situationNumber: 'fabdaeb9-f185-11e9-9406-0fe662eb1b65',
+      extensions: {
+        custom: null,
+        'native': {
+          updateTime: null,
+          descriptionDelete: null,
+          situationType: 'external',
+          expectedStart: null,
+          expectedEnd: null
+        }
+      },
+      audience: 'public'
+    }
+  ]
+}
+
+
+const geoTemplate = {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point"
+            }
+        }
+
+const mainGeoJSOn = {
+    "type": "FeatureCollection",
+    "features": []
+}
+
+// const fconv = elem => R.path(['situations'],elem);
+// R.path(['situations'],json);
+const notUndefined = R.compose(R.not, R.isNil);
+const notEmpty = R.compose(R.not, R.isEmpty);
+const getEffects = elem => R.path(['affects'],elem);
+const getStopPoints = elem => R.path(['stopPoints'],elem);
+const getLocation = elem => R.path(['location'],elem);
+const getStopPointRef = elem => R.path(['stopPointRef'],elem);
+const toGeo = x => R.assocPath(['geometry','coordinates'],[x.latitude,x.longitude],geoTemplate);
+const toGeo2= x => R.merge(R.assocPath(['properties','stopPointRef'],x.stopPointRef,geoTemplate),R.assocPath(['geometry','coordinates'],[x.location.latitude,x.location.longitude],geoTemplate));
+// const onlyAffect =
+//R.map(getLocation,
+// R.path(0,
+//R.map(getStopPointRef,
+// R.filter(notEmpty,
+//  R.map(getStopPoints,R.filter(notUndefined,R.map(getEffects,R.path(['situations'],json))))
+// )
+//)
+//)
+// );
+
+// R.reject(R.isEmpty,
+// R.flatten(
+// R.map(getStopPoints,
+//   R.reject( R.isNil,R.map(getEffects,R.path(['situations'],json)))
+// )
+//).map(getLocation)
+//)
+
+JSON.stringify(R.assoc("features",R.reject( R.isNil,R.flatten(R.map(getEffects,R.path(['situations'],json)).map(getStopPoints)))
+    //ap(getLocation))
+.map(toGeo2),mainGeoJSOn))
+
+

@@ -1,0 +1,97 @@
+const json = {
+
+    "situations": [
+      {
+            "countryRef": "ITA",
+            "participantRef": "MOP",
+            "situationNumber": "03217769-f3f6-11e9-9406-576a760cd2c3",
+            "progress": "open",
+            "scopeType": "stopPoint",
+            "affects": {
+                "allOperators": false,
+                "operators": [],
+                "stopPoints": [
+                    {
+                        "stopPointRef": "TNPNTS00000000000008",
+                        "stopPointName": "ISOLA",
+                        "location": {
+                            "latitude": null,
+                            "longitude": null,
+                            "precision": null
+                        },
+                        "affectedModes": null,
+                        "placeRef": null,
+                        "placeName": null,
+                        "accessibilityAssessment": null,
+                        "connectionLinks": null
+                    }
+                ],
+                "networks": [],
+                "lines": [],
+                "vehicleJourneys": [],
+                "stopPlaces": [],
+                "places": null
+            },
+        }, {
+            "countryRef": "ITA",
+            "participantRef": "MOP",
+            "situationNumber": "03217769-f3f6-11e9-9406-576a760cd2c3",
+            "progress": "open",
+            "scopeType": "stopPoint",
+            "affects": {
+                "allOperators": false,
+                "operators": [],
+                "stopPoints": [
+                    {
+                        "stopPointRef": "TNPNTS00000000000008",
+                        "stopPointName": "ISOLA",
+                        "location": {
+                            "latitude": null,
+                            "longitude": null,
+                            "precision": null
+                        },
+                        "affectedModes": null,
+                        "placeRef": null,
+                        "placeName": null,
+                        "accessibilityAssessment": null,
+                        "connectionLinks": null
+                    },
+                  {
+                        "stopPointRef": "TNPNTS00000000000009",
+                        "stopPointName": "ISOLA",
+                        "location": {
+                            "latitude": null,
+                            "longitude": null,
+                            "precision": null
+                        },
+                        "affectedModes": null,
+                        "placeRef": null,
+                        "placeName": null,
+                        "accessibilityAssessment": null,
+                        "connectionLinks": null
+                    }
+                ],
+                "networks": [],
+                "lines": [],
+                "vehicleJourneys": [],
+                "stopPlaces": [],
+                "places": null
+            },
+        },
+      {
+            "countryRef": "ITA",
+            "participantRef": "MOP",
+            "situationNumber": "03217769-f3f6-11e9-9406-576a760cd222",
+            "progress": "close",
+            "scopeType": "stopPoint"
+        },
+    ]
+};
+
+filterSituation = (affects) => affects.progress === 'open'; // && affects !== null && affects.stopPoints !== null
+getStopPoints = (situation) => situation.stopPoints;
+const situations = json.situations.filter(filterSituation);
+console.log(situations);
+modSituations = situations.map(s => { return{ s.situationNumber, ...s.affects.stopPoints}} )
+console.log(modSituations);
+// const situtationsNumners = json.situations.filter(filterSituation).map(getSituationNumber)

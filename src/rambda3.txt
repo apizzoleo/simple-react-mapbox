@@ -1,0 +1,151 @@
+const json = {
+
+    "situations": [
+      {
+            "countryRef": "ITA",
+            "participantRef": "MOP",
+            "situationNumber": "03217769-f3f6-11e9-9406-576a760cd2c3",
+            "progress": "open",
+            "scopeType": "stopPoint",
+            "affects": {
+                "allOperators": false,
+                "operators": [],
+                "stopPoints": [
+                    {
+                        "stopPointRef": "TNPNTS00000000000008",
+                        "stopPointName": "ISOLA",
+                        "location": {
+                            "latitude": null,
+                            "longitude": null,
+                            "precision": null
+                        },
+                        "affectedModes": null,
+                        "placeRef": null,
+                        "placeName": null,
+                        "accessibilityAssessment": null,
+                        "connectionLinks": null
+                    }
+                ],
+                "networks": [],
+                "lines": [],
+                "vehicleJourneys": [],
+                "stopPlaces": [],
+                "places": null
+            },
+        }, {
+            "countryRef": "ITA",
+            "participantRef": "MOP",
+            "situationNumber": "03217769-f3f6-11e9-9406-576a760cd2c3",
+            "progress": "open",
+            "scopeType": "stopPoint",
+            "affects": {
+                "allOperators": false,
+                "operators": [],
+                "stopPoints": [
+                    {
+                        "stopPointRef": "TNPNTS00000000000008",
+                        "stopPointName": "ISOLA",
+                        "location": {
+                            "latitude": null,
+                            "longitude": null,
+                            "precision": null
+                        },
+                        "affectedModes": null,
+                        "placeRef": null,
+                        "placeName": null,
+                        "accessibilityAssessment": null,
+                        "connectionLinks": null
+                    },
+                  {
+                        "stopPointRef": "TNPNTS00000000000009",
+                        "stopPointName": "ISOLA",
+                        "location": {
+                            "latitude": null,
+                            "longitude": null,
+                            "precision": null
+                        },
+                        "affectedModes": null,
+                        "placeRef": null,
+                        "placeName": null,
+                        "accessibilityAssessment": null,
+                        "connectionLinks": null
+                    }
+                ],
+                "networks": [],
+                "lines": [],
+                "vehicleJourneys": [],
+                "stopPlaces": [],
+                "places": null
+            },
+        },
+      {
+            "countryRef": "ITA",
+            "participantRef": "MOP",
+            "situationNumber": "03217769-f3f6-11e9-9406-576a760cd222",
+            "progress": "close",
+            "scopeType": "stopPoint"
+        },
+    ]
+}
+
+
+const geoTemplate = {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point"
+            }
+        }
+
+const mainGeoJSOn = {
+    "type": "FeatureCollection",
+    "features": []
+}
+
+// const fconv = elem => R.path(['situations'],elem);
+// R.path(['situations'],json);
+const notUndefined = R.compose(R.not, R.isNil);
+const notEmpty = R.compose(R.not, R.isEmpty);
+const getAffects = elem => R.path(['affects'],elem);
+const getLocation = elem => R.path(['location'],elem);
+const getStopPointRef = elem => R.path(['stopPointRef'],elem);
+const getProgress = elem => R.path(['progress'],elem)  != 'open'
+const toGeo = x => R.assocPath(['geometry','coordinates'],[x.latitude,x.longitude],geoTemplate);
+const toGeo2= x => R.merge(R.assocPath(['properties','stopPointRef'],x.stopPointRef,geoTemplate),R.assocPath(['geometry','coordinates'],[x.location.latitude,x.location.longitude],geoTemplate));
+const filterStopPoints = elem => R.isEmpty(R.path(['stopPoints'],elem))
+const filterNoAffects = elem => R.isNil(R.path(['affects'],elem))
+const costListLens = lensProp('stopPoints')
+// R.assoc("features",
+//  R.reject( R.isNil,R.flatten(
+//                       R.map(getEffects,R.path(
+//                        ['situations'],json)).map(getStopPoints)))
+//    //ap(getLocation))
+// .map(toGeo2),mainGeoJSOn)
+
+// R.reject(getProgress,
+//   R.reject(
+//     R.isNil,R.flatten(
+//             R.map(getEffects,R.path(['situations'],json)))))
+
+// R.flatten(
+// R.map(getEffects,R.path(['situations'],json)))
+
+// R.reject(filterStopPoints,R.reject(R.isNil,R.reject(getProgress,R.path(['situations'],json)).map(getEffects)))
+
+
+const toSituations = json => R.reject(filterNoAffects,
+         R.reject(R.isNil,R.reject(getProgress,R.path(['situations'],json)))
+)
+
+const getStituationNumber = elem => R.map(R.path(["situationNumber"]),elem);
+// const getStopPoints = elem => R.path(['stopPoints'],elem);
+const getStopPoints = elem => R.map(R.path(["affects","stopPoints"]),elem);
+// const matchPhrases = x => R.map(R.objOf('situation-number'))(x)
+//const matchPhrases = x => R.compose(R.objOf('situation-number'),R.map(getAffects))(x)
+
+// getStituationNumber(toSituations(json))
+// getStopPoints(toSituations(json))
+// R.merge(getStopPoints(toSituations(json)),getStituationNumber(toSituations(json)))
+toSituations(json)
+
+
+
