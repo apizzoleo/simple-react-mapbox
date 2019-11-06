@@ -1,11 +1,9 @@
 import React,{Component} from 'react';
 import MapGL,{Source, Layer}  from 'react-map-gl';
+import _ from "lodash";
 // import MapGL  from 'react-map-gl';
 import {request,json as requestJson} from 'd3-request';
-import { dataLayer, imgLayer, modDataLayer } from './map-style';
-
-const { fromJS } = require('immutable');
-const  jsonQ = require("jsonq");
+import { stopLayer, lineLayer, dataLayer, imgLayer, modDataLayer } from './map-style';
 // import {fromJS} from 'immutable';
 
 // const dataLayer = fromJS({
@@ -103,11 +101,19 @@ export default class Map extends Component {
         zoom: 8,
         bearing: 0,
         pitch: 0
-      }
+      },
+      layers:{
+        spLayer: stopLayer,
+        lnLayer: lineLayer
+      },
+      hoveredFeature: null
     };
 
     this._loadData = this._loadData.bind(this);
     this._loadMap = this._loadMap.bind(this);
+    this._onClick = this._onClick.bind(this);
+    this._onHover = this._onHover.bind(this);
+    this._renderTooltip = this._renderTooltip.bind(this);
   }
 
   componentDidMount() {
@@ -119,54 +125,74 @@ export default class Map extends Component {
   }
 
   _loadData = data => {
-    // let geojson = fromJS(data);
-    // let jObj = jsonQ(data);
     this.setState({data});
   };
 
   _loadMap = () => {
-    console.log(this.map.current);
-
-    // this.map.current.getMap().loadImage("images/iconmonstr-star-3-16.png",(error,image)=> {
-    //   if (error) throw error;
-    //   this.map.current.getMap().addImage('airicon-11',image);
-    //   setTimeout(() => {
-    //     this.setState({loadImage: true});
-    //     console.log(this.map.current.getMap().listImages());
-    //   },3000);
-    // });
-
-    // request("images/iconmonstr-star-3.svg").get((response)=> {
-    //   debugger;
-    //   const svg = response.responseText;
-    //   let blob = new Blob([svg], {type: 'image/svg+xml'});
-    //   let url = URL.createObjectURL(blob);
-    //   let image = document.createElement('img');
-    //   image.src = url;
-    //   image.addEventListener('load', () => URL.revokeObjectURL(url), {once: true});
-    //   this.map.current.getMap().addImage('airport-11',{width: 24, height: 24, data: image});
-    //   setTimeout(() => {
-    //     this.setState({loadImage: true});
-    //     console.log(this.map.current.getMap().listImages());
-    //   },3000);
-    // });
-
-        // this.map.current.getMap().addImage('airicon-11',svgPathToImage({path: "images/iconmonstr-star-3-16.png",height: 16,width: 16}));
-    // console.log(this.map.current.getMap().hasImage('airicon-11'));
-    // while(!this.map.current.getMap().hasImage('airicon-11')){};
-
-
 
   }
 
+  _onClick(event) {
+    // either
+    const featureLines = event.features.find(f => f.layer.id === 'line-layer');
+    const featureStop = event.features.find(f => f.layer.id === 'stop-layer');
+    // or
+    // const point = [event.center.x, event.center.y];
+    // const feature = this.mapRef.queryRenderedFeatures(point, { layers: ['clusters'] })[0];
+
+    if (featureLines || featureStop) {
+      // look up cluster expansion zoom
+
+      const lineRef = featureLines.properties.lineRef;
+      const { layers:{spLayer,lnLayer} } = this.state;
+
+      _.set(lnLayer,'filter',['==','lineRef',lineRef]);
+      _.set(spLayer,'filter',['==','lineRef',lineRef]);
+
+      this.setState({layers:{lnLayer,spLayer}})
+
+    }
+    else {
+      const { layers:{spLayer,lnLayer} } = this.state;
+      _.unset(lnLayer,'filter');
+      _.unset(spLayer,'filter');
+      this.setState({layers:{lnLayer,spLayer}})
+    }
+  }
+  _onHover = event => {
+    const {
+      features,
+      srcEvent: {offsetX, offsetY}
+    } = event;
+    const hoveredFeature = features && features.find(f => f.layer.id === 'line-layer');
+    if(hoveredFeature) debugger;
+    this.setState({hoveredFeature, x: offsetX, y: offsetY});
+  };
+
+  _renderTooltip() {
+    const {hoveredFeature, x, y} = this.state;
+
+    return (
+      hoveredFeature && (
+        <div className="tooltip" style={{left: x, top: y}}>
+          <div>LineRef: {hoveredFeature.properties.lineRef}</div>
+        </div>
+      )
+    );
+  }
   render() {
     // const { mapboxApiAccessToken,data } = this.state;
-    const { mapboxApiAccessToken,data,loadImage } = this.state;
+
+    const { mapboxApiAccessToken,data,loadImage,layers:{spLayer,lnLayer}} = this.state;
+
     return (
       <div id="map">
       <MapGL
         ref={this.map}
+        interactiveLayerIds={['stop-layer','line-layer']}
         onLoad={this._loadMap}
+        onClick={this._onClick}
+        onHover={this._onHover}
         mapboxApiAccessToken={mapboxApiAccessToken}
         mapStyle="mapstyle/basic-v9.json"
         {...this.state.viewport}
@@ -174,14 +200,10 @@ export default class Map extends Component {
         height="100%"
         onViewportChange={(viewport) => this.setState({viewport})}>
             <Source type="geojson" data={data}>
-              {/* <Layer {...dataLayer} />
-              <Layer {...modDataLayer} /> */}
-              <Layer {...imgLayer} />
+               <Layer {...spLayer} />
+               <Layer {...lnLayer} />
            </Source>
-           {/* {loadImage ? <Source type="geojson" data={data}>
-
-             <Layer {...imgLayer} />
-          </Source> : null } */}
+           {this._renderTooltip()}
       </MapGL>
       </div>
     );
