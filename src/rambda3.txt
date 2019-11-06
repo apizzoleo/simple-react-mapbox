@@ -30,6 +30,7 @@ const json = {
                 "lines": [],
                 "vehicleJourneys": [],
                 "stopPlaces": [],
+                 "severity": "slight",
                 "places": null
             },
         }, {
@@ -75,6 +76,7 @@ const json = {
                 "lines": [],
                 "vehicleJourneys": [],
                 "stopPlaces": [],
+                 "severity": "slight",
                 "places": null
             },
         },
@@ -83,7 +85,9 @@ const json = {
             "participantRef": "MOP",
             "situationNumber": "03217769-f3f6-11e9-9406-576a760cd222",
             "progress": "close",
+             "severity": "slight",
             "scopeType": "stopPoint"
+
         },
     ]
 }
@@ -147,5 +151,6 @@ const getStopPoints = elem => R.map(R.path(["affects","stopPoints"]),elem);
 // R.merge(getStopPoints(toSituations(json)),getStituationNumber(toSituations(json)))
 toSituations(json)
 
+R.flatten(getStituationNumber(toSituations(json)).map((x,i) => getStopPoints(toSituations(json))[i].map(y => {return {serial: x,...y}})))
 
 

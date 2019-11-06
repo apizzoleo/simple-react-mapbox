@@ -111,7 +111,7 @@ export default class Map extends Component {
   }
 
   componentDidMount() {
-    requestJson('data/map.geojson', (error, response) => {
+    requestJson('data/network7391.geojson', (error, response) => {
       if (!error) {
         this._loadData(response);
       }
@@ -122,17 +122,6 @@ export default class Map extends Component {
     // let geojson = fromJS(data);
     // let jObj = jsonQ(data);
     this.setState({data});
-
-
-    debugger;
-    setTimeout(() => {
-      // const index = geojson.get('features').findIndex((item) => item.getIn(['properties','level']) === 3)
-      // geojson = geojson.setIn(['features',index,'properties','level'],2);
-      let dataTemp = { ...jsonQ.setPathValue(data,['features',2,'properties','level'],2)};
-      this.setState({data: dataTemp});
-      // console.log(geojson.toJSON());
-
-    },5000);
   };
 
   _loadMap = () => {

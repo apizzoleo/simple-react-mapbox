@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
     "d3-request": "^1.0.6",
     "immutable": "^4.0.0-rc.12",
     "jsonq": "^1.2.0",
@@ -26,5 +27,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-stage-2": "^7.0.0"
+  }
 }
