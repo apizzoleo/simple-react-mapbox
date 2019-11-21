@@ -124,19 +124,18 @@ export default class Map extends Component {
     this.setState({data});
 
 
-    debugger;
-    setTimeout(() => {
+    // setTimeout(() => {
       // const index = geojson.get('features').findIndex((item) => item.getIn(['properties','level']) === 3)
       // geojson = geojson.setIn(['features',index,'properties','level'],2);
-      let dataTemp = { ...jsonQ.setPathValue(data,['features',2,'properties','level'],2)};
-      this.setState({data: dataTemp});
+      // let dataTemp = { ...jsonQ.setPathValue(data,['features',2,'properties','level'],2)};
+      // this.setState({data: dataTemp});
       // console.log(geojson.toJSON());
 
-    },5000);
+    // },5000);
   };
 
   _loadMap = () => {
-    console.log(this.map.current);
+    console.log(this.map.current.getMap());
 
     // this.map.current.getMap().loadImage("images/iconmonstr-star-3-16.png",(error,image)=> {
     //   if (error) throw error;

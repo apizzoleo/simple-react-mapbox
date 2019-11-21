@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapComponent renderer 1`] = `
+<div
+  id="map"
+>
+  <div
+    style={
+      Object {
+        "cursor": "grab",
+        "height": "100%",
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "height": "100%",
+          "position": "relative",
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "height": "100%",
+            "overflow": "hidden",
+            "position": "absolute",
+            "visibility": "inherit",
+            "width": "100%",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "height": 0,
+            "overflow": "visible",
+            "width": 0,
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
